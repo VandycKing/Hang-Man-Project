@@ -18,7 +18,7 @@ print('The randomly selected word is {}'.format(word))
 
 # %%
 
-# TODO:
+# TODO: Accepts input and checks if input is valid
 guess = input('Enter a letter: ')
 
 if guess.isalpha() and len(guess) == 1:
