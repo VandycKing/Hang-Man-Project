@@ -1,6 +1,11 @@
+import random
 
 # TODO: Create a list with your favourite fruits
 word_list = ['apples', 'mangoes', 'guava', 'oranges', 'grapes']
 
-for word in word_list:
-    print(word)
+# TODO: print items in word_list
+for i in word_list:
+    print(i)
+
+# TODO: Get a word from the word list
+word = random.choice(word_list)
