@@ -6,8 +6,8 @@ import random
 word_list = ['apples', 'mangoes', 'guava', 'oranges', 'grapes']
 
 # TODO: print items in word_list
-for i in word_list:
-    print(f'The word is: {i}')
+for element in word_list:
+    print(f'The word is: {element}')
 
 # %%
 
